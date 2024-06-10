@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%; /* Increased width */
+    max-width: 1800px; /* Max width for larger screens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.button-container button {
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    padding: 20px; /* Adjusted padding for better alignment */
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 45%; /* Adjusted width for better alignment */
+    margin: 10px 0; /* Adjusted margin for spacing */
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.full-width {
+    width: 100%; /* Full width for the last button */
+    padding: 20px; /* Adjusted padding for consistency */
+    margin-top: 20px; /* Margin for better spacing */
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px; /* Increased padding */
+    border-radius: 10px;
+    width: 100%; /* Use full width */
+    max-width: 1000px; /* Max width for larger screens */
+    text-align: left;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 25px; /* Increased margin */
+}
+
+label {
+    display: block;
+    margin-top: 10px; /* Increased margin */
+    font-size: 1.5em; /* Increased font size */
+    width: 100%;
+}
+
+input[type="text"], textarea {
+    width: calc(100% - 22px); /* Full width minus padding and border */
+    padding: 10px; /* Increased padding */
+    margin-top: 10px; /* Increased margin */
+    margin-bottom: 20px; /* Increased margin */
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    height: 120px; /* Increased height of suggestion box */
+}
+
+select {
+    width: 150px; /* Increased width */
+    padding: 8px; /* Increased padding */
+    margin-top: 10px; /* Increased margin */
+    margin-bottom: 20px; /* Increased margin */
+    border-radius: 5px;
+    border: none;
+}
+
+.submit-button, .back-button {
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    padding: 10px 20px; /* Increased padding */
+    font-size: 1.1em; /* Increased font size */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.submit-button:hover, .back-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.button-container-form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px; /* Added margin */
+}
